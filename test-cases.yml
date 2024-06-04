@@ -62,7 +62,5 @@ const solution = (width, length) => {
 module.exports = solution;
       steps:
     - Нажимаем на кнопку Create a game
-    - 
-    - Нажимаем кнопку «Войти»
-  expected-result: |
-    Пользователь должен получить сообщение об ошибке
+      expected-result: |
+    Запустилась выбранная игра
