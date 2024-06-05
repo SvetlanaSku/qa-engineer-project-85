@@ -46,7 +46,87 @@
     Пользователь должен получить сообщение об ошибке
 
 - summary: |
-    Проверка создания новой игры против бота в браузере Google Chrome
+    Проверка запуска новой игры против бота уровень 1
+  requirement: |
+    Успешный запуск игры
+  prerequisites:
+    Пользователь авторизован
+      test-data: |
+  no data
+      steps:
+    - Нажимаем на кнопку Create a game
+    - Выбираем уровень 1
+    - Выбираем рандомную игру
+    - Нажимаем на кнопку Create battle
+          expected-result: |
+    Запустилась выбранная игра
+
+- summary: |
+    Проверка запуска новой игры против бота уровень 2
+  requirement: |
+    Успешный запуск игры
+  prerequisites:
+    Пользователь авторизован
+      test-data: |
+  no data
+      steps:
+    - Нажимаем на кнопку Create a game
+    - Выбираем уровень 2
+    - Выбираем рандомную игру
+    - Нажимаем на кнопку Create battle
+          expected-result: |
+    Запустилась выбранная игра
+
+    - summary: |
+    Проверка запуска новой игры против бота уровень 3
+  requirement: |
+    Успешный запуск игры
+  prerequisites:
+    Пользователь авторизован
+      test-data: |
+  no data
+      steps:
+    - Нажимаем на кнопку Create a game
+    - Выбираем уровень 3
+    - Выбираем рандомную игру
+    - Нажимаем на кнопку Create battle
+          expected-result: |
+    Запустилась выбранная игра
+
+    - summary: |
+    Проверка запуска новой игры против бота уровень 4
+  requirement: |
+    Успешный запуск игры
+  prerequisites:
+    Пользователь авторизован
+      test-data: |
+  no data
+      steps:
+    - Нажимаем на кнопку Create a game
+    - Выбираем уровень 4
+    - Выбираем рандомную игру
+    - Нажимаем на кнопку Create battle
+          expected-result: |
+    Запустилась выбранная игра
+
+    - summary: |
+    Проверка запуска новой игры против бота уровень 5
+  requirement: |
+    Успешный запуск игры
+  prerequisites:
+    Пользователь авторизован
+      test-data: |
+  no data
+      steps:
+    - Нажимаем на кнопку Create a game
+    - Выбираем уровень 5
+    - Выбираем рандомную игру
+    - Нажимаем на кнопку Create battle
+          expected-result: |
+    Запустилась выбранная игра
+    
+- summary: |
+    Проверка ecgtiyjcnb игры против бота в браузере Google Chrome
   requirement: |
     Успешная игра
   prerequisites:
@@ -58,7 +138,6 @@ const R = require("rambda");
 const solution = (width, length) => {
   return width * length;
 };
-
 module.exports = solution;
       steps:
     - Нажимаем на кнопку Create a game
