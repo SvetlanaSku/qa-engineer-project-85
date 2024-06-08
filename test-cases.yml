@@ -126,20 +126,27 @@
     Запустилась выбранная игра
     
 - summary: |
-    Проверка ecgtiyjcnb игры против бота в браузере Google Chrome
+    Проверка "победной" игры против бота в браузере Google Chrome
   requirement: |
-    Успешная игра
+    Победа в игре
   prerequisites:
     Пользователь авторизован
       test-data: |
-  const _ = require("lodash");
+const _ = require("lodash");
 const R = require("rambda");
 
 const solution = (width, length) => {
   return width * length;
 };
+
 module.exports = solution;
       steps:
     - Нажимаем на кнопку Create a game
+    - Уровень 1
+    - Игра с ботом
+    - Выбираем игру rect_area
+    - Нажимаем Create battle
+    - Заполняем поле тестовыми данными
+    - Нажимаем Run
       expected-result: |
-    Запустилась выбранная игра
+    Победный баннер, играет музыка победы
