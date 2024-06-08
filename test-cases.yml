@@ -51,9 +51,9 @@
     Успешный запуск игры
   prerequisites:
     Пользователь авторизован
-      test-data: |
-  no data
-      steps:
+  test-data: |
+    no data
+  steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 1
     - Выбираем рандомную игру
@@ -67,37 +67,37 @@
     Успешный запуск игры
   prerequisites:
     Пользователь авторизован
-      test-data: |
-  no data
+  test-data: |
+    no data
       steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 2
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
-          expected-result: |
+  expected-result: |
     Запустилась выбранная игра
 
-    - summary: |
+- summary: |
     Проверка запуска новой игры против бота уровень 3
   requirement: |
     Успешный запуск игры
   prerequisites:
     Пользователь авторизован
-      test-data: |
+  test-data: |
   no data
       steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 3
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
-          expected-result: |
+   expected-result: |
     Запустилась выбранная игра
 
-    - summary: |
+- summary: |
     Проверка запуска новой игры против бота уровень 4
-  requirement: |
+    requirement: |
     Успешный запуск игры
-  prerequisites:
+    prerequisites:
     Пользователь авторизован
       test-data: |
   no data
@@ -109,7 +109,7 @@
           expected-result: |
     Запустилась выбранная игра
 
-    - summary: |
+- summary: |
     Проверка запуска новой игры против бота уровень 5
   requirement: |
     Успешный запуск игры
@@ -131,7 +131,7 @@
     Победа в игре
   prerequisites:
     Пользователь авторизован
-      test-data: |
+  test-data: |
 const _ = require("lodash");
 const R = require("rambda");
 
@@ -140,7 +140,7 @@ const solution = (width, length) => {
 };
 
 module.exports = solution;
-      steps:
+   steps:
     - Нажимаем на кнопку Create a game
     - Уровень 1
     - Игра с ботом
@@ -148,5 +148,5 @@ module.exports = solution;
     - Нажимаем Create battle
     - Заполняем поле тестовыми данными
     - Нажимаем Run
-      expected-result: |
+   expected-result: |
     Победный баннер, играет музыка победы
