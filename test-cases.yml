@@ -132,15 +132,15 @@
   prerequisites:
     Пользователь авторизован
   test-data: |
-const _ = require("lodash");
-const R = require("rambda");
+   const _ = require("lodash");
+   const R = require("rambda");
 
-const solution = (width, length) => {
-  return width * length;
-};
+   const solution = (width, length) => {
+   return width * length;
+   };
 
-module.exports = solution;
-   steps:
+   module.exports = solution;
+steps:
     - Нажимаем на кнопку Create a game
     - Уровень 1
     - Игра с ботом
@@ -148,5 +148,5 @@ module.exports = solution;
     - Нажимаем Create battle
     - Заполняем поле тестовыми данными
     - Нажимаем Run
-   expected-result: |
+expected-result: |
     Победный баннер, играет музыка победы
