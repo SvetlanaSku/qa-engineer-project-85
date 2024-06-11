@@ -106,7 +106,7 @@
     - Выбираем уровень 4
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
- expected-result: |
+expected-result: |
     Запустилась выбранная игра
 
 - summary: |
@@ -122,7 +122,7 @@
     - Выбираем уровень 5
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
- expected-result: |
+expected-result: |
     Запустилась выбранная игра
     
 - summary: |
