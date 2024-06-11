@@ -84,8 +84,8 @@
   prerequisites:
     Пользователь авторизован
   test-data: |
-  no data
-      steps:
+    no data
+  steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 3
     - Выбираем рандомную игру
@@ -106,7 +106,7 @@
     - Выбираем уровень 4
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
-expected-result: |
+ expected-result: |
     Запустилась выбранная игра
 
 - summary: |
@@ -122,7 +122,7 @@ expected-result: |
     - Выбираем уровень 5
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
-expected-result: |
+ expected-result: |
     Запустилась выбранная игра
     
 - summary: |
@@ -148,5 +148,5 @@ expected-result: |
     - Нажимаем Create battle
     - Заполняем поле тестовыми данными
     - Нажимаем Run
-expected-result: |
+ expected-result: |
     Победный баннер, играет музыка победы
