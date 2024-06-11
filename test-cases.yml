@@ -69,7 +69,7 @@
     Пользователь авторизован
   test-data: |
     no data
-      steps:
+  steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 2
     - Выбираем рандомную игру
@@ -90,23 +90,23 @@
     - Выбираем уровень 3
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
-   expected-result: |
+  expected-result: |
     Запустилась выбранная игра
 
 - summary: |
     Проверка запуска новой игры против бота уровень 4
-    requirement: |
+  requirement: |
     Успешный запуск игры
     prerequisites:
     Пользователь авторизован
- test-data: |
+  test-data: |
   no data
-      steps:
+  steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 4
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
- expected-result: |
+  expected-result: |
     Запустилась выбранная игра
 
 - summary: |
@@ -115,14 +115,14 @@
     Успешный запуск игры
   prerequisites:
     Пользователь авторизован
- test-data: |
-  no data
+  test-data: |
+     no data
       steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 5
     - Выбираем рандомную игру
     - Нажимаем на кнопку Create battle
- expected-result: |
+  expected-result: |
     Запустилась выбранная игра
     
 - summary: |
@@ -148,5 +148,5 @@
     - Нажимаем Create battle
     - Заполняем поле тестовыми данными
     - Нажимаем Run
- expected-result: |
+  expected-result: |
     Победный баннер, играет музыка победы
