@@ -99,7 +99,7 @@
     Успешный запуск игры
     prerequisites:
     Пользователь авторизован
-      test-data: |
+ test-data: |
   no data
       steps:
     - Нажимаем на кнопку Create a game
@@ -115,7 +115,7 @@
     Успешный запуск игры
   prerequisites:
     Пользователь авторизован
-      test-data: |
+ test-data: |
   no data
       steps:
     - Нажимаем на кнопку Create a game
@@ -140,7 +140,7 @@
    };
 
    module.exports = solution;
-steps:
+  steps:
     - Нажимаем на кнопку Create a game
     - Уровень 1
     - Игра с ботом
@@ -148,5 +148,5 @@ steps:
     - Нажимаем Create battle
     - Заполняем поле тестовыми данными
     - Нажимаем Run
-expected-result: |
+  expected-result: |
     Победный баннер, играет музыка победы
