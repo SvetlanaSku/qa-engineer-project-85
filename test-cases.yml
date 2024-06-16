@@ -99,7 +99,7 @@
     prerequisites:
     Пользователь авторизован
   test-data: |
-  no data
+     no data
   steps:
     - Нажимаем на кнопку Create a game
     - Выбираем уровень 4
@@ -139,10 +139,10 @@
     Проверка установки времени по умолчанию при запуске игры 
   requirement: |
     Успешный запуск игры при установке времени по умолчанию
-    prerequisites:
+  prerequisites:
     Пользователь авторизован
   test-data: |
-  no data
+    no data
   steps:
     - Нажимаем на кнопку Create a game
     - Оставляем время игры по умолчанию 
@@ -157,10 +157,10 @@
     Проверка установки максимального времени при запуске игры 
   requirement: |
     Успешный запуск игры при установке максимального времени
-    prerequisites:
+  prerequisites:
     Пользователь авторизован
   test-data: |
-  no data
+     no data
   steps:
     - Нажимаем на кнопку Create a game
     - Выставляем максимальное время игры 
@@ -178,7 +178,7 @@
     prerequisites:
     Пользователь авторизован
   test-data: |
-  no data
+     no data
   steps:
     - Нажимаем на кнопку Create a game
     - Выставляем минимальное время игры 
@@ -210,11 +210,11 @@
     Проверка возможности сдаться 
   requirement: |
     Работа кнопки с белым флагом
-    prerequisites:
+  prerequisites:
     - Пользователь авторизован
     - Запущена игра
   test-data: |
-  no data
+     no data
   steps:
     - Нажимаем кнопку с белым флагом
   expected-result: |
@@ -228,7 +228,7 @@
     - Пользователь авторизован
     - Запущена игра
   test-data: |
-  no data
+     no data
   steps:
     - Нажимаем кнопку "Развернуть описание" 
   expected-result: |
@@ -242,7 +242,7 @@
     - Пользователь авторизован
     - Запущена игра
   test-data: |
-  no data
+     no data
   steps:
     - Нажимаем кнопку "Гайд" 
   expected-result: |
