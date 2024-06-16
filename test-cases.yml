@@ -6,7 +6,7 @@
   prerequisites: |
     Открыта страница регистрации
   test-data: |
-   Nickname = Ivan123 Пароль = password Email = test@mail.ru
+    Nickname = Ivan123 Пароль = password Email = test@mail.ru
   steps:
     - Вводим Nickname
     - Вводим пароль
@@ -211,7 +211,7 @@
   requirement: |
     Работа кнопки с белым флагом
   prerequisites:
-    - Пользователь авторизован, запущена игра
+    Пользователь авторизован, запущена игра
   test-data: |
      no data
   steps:
@@ -224,7 +224,7 @@
   requirement: |
     Работа кнопки "Развернуть описание" 
   prerequisites:
-    - Пользователь авторизован, запущена игра
+    Пользователь авторизован, запущена игра
   test-data: |
      no data
   steps:
@@ -237,7 +237,7 @@
   requirement: |
     Работа кнопки "Гайд" 
   prerequisites:
-    - Пользователь авторизован, запущена игра
+    Пользователь авторизован, запущена игра
   test-data: |
      no data
   steps:
