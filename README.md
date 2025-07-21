@@ -1,2 +1,12 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/SvetlanaSku/qa-engineer-project-85/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/SvetlanaSku/qa-engineer-project-85/actions)
+# QA Engineer Project 85
+
+Этот проект предназначен для управления задачами, требованиями и тестированием в рамках процесса обеспечения качества (QA).
+
+## Описание файлов
+
+- `issues.yml` — список текущих задач и проблем, которые необходимо решить.
+- `reopened_issues.yml` — перечень задач, которые были повторно открыты после закрытия.
+- `requirements.yml` — требования к проекту, которые должны быть реализованы и протестированы.
+- `test-cases.yml` — набор тест-кейсов для проверки соответствия требованиям и корректности работы функционала.
+- `testing-report.yml` — отчёты о проведённом тестировании, включая результаты выполнения тест-кейсов.
+- 
